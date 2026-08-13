@@ -9,10 +9,6 @@ jobs:
       matrix:
         os: [macos-latest]
 
-        name: Manual Workflow
-on:
-  workflow_dispatch: # Enables the manual "Run workflow" button
-
     steps:
       - uses: actions/checkout@v3
         with:
